@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
 .head {
+    font-family: 'Titillium Web';
     height: 80px;
-    /* width: 400px; */
     text-align: center;
     font-weight: 600;
     background-color: gray;
