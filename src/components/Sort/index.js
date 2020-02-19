@@ -18,10 +18,10 @@ function Sort(props) {
     return (
       <>
         <button onClick={descending} 
-          className="sortButton">Sort Descending Salaries
+          className="buttonEffect">Sort Descending Salaries
         </button>
         <button onClick={ascending} 
-          className="sortButton">Sort Ascending Salaries
+          className="buttonEffect">Sort Ascending Salaries
         </button>
       </>
       
