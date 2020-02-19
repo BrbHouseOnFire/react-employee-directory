@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Jen",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1581094648468-20624f9c771a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "position": "Sr. Web Developer",
+      "salary": 100000
+
+    },
+    {
+      "id": 2,
+      "name": "Kristen",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1448932155749-638e51b56f03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
+      "position": "Jr. Web Developer",
+      "salary": 55000
+    },
+    {
+      "id": 3,
+      "name": "Charlotte",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1522152302542-71a8e5172aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=910&q=80",
+      "position": "Jr. Web Developer",
+      "salary": 65000
+    },
+    {
+      "id": 4,
+      "name": "Tonya",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1499914567823-c240485cb7d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "position": "Web Developer",
+      "salary": 85000
+    },
+    {
+      "id": 5,
+      "name": "Damien",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1581368135153-a506cf13b1e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "position": "Jr. Web Developer",
+      "salary": 60000
+    },
+    {
+      "id": 6,
+      "name": "Tim",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "position": "Jr. Web Developer",
+      "salary": 55000
+    },
+    {
+      "id": 7,
+      "name": "Crash",
+      "department": "Developers",
+      "image": "https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "position": "Web Developer",
+      "salary": 89000
+    }
+  ]
