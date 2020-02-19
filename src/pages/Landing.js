@@ -5,6 +5,7 @@ import EmployeeCard from "../components/employeeCard";
 import SearchBar from "../components/SearchBar/SearchBar";
 import Sort from "../components/Sort/index.js";
 import Navbar from "../components/Navbar";
+import "./style.css";
 
 
 
@@ -30,19 +31,23 @@ function Landing() {
     return (
         <>
             <Navbar />
-            <Sort tomemployees={employees} handleSort={handleSort}/>
-            <SearchBar searchChange={ handleInputChange} employees={employees} search={search} setSearch={setSearch}/>
-            {results.map(employee => (
-                <EmployeeCard
-                    id={employee.id}
-                    key={employee.id} 
-                    name={employee.name}
-                    image={employee.image}
-                    department={employee.department}
-                    position={employee.position}
-                    salary={employee.salary}
-                />
-            ))}
+            <div className="flex jcsb">
+              <Sort emps={employees} handleSort={handleSort}/>
+              <SearchBar searchChange={ handleInputChange} employees={employees} search={search} setSearch={setSearch}/>
+            </div>
+            <div className="flex jcse">
+              {results.map(employee => (
+                  <EmployeeCard
+                      id={employee.id}
+                      key={employee.id} 
+                      name={employee.name}
+                      image={employee.image}
+                      department={employee.department}
+                      position={employee.position}
+                      salary={employee.salary}
+                  />
+              ))}
+            </div>
         
         </>
       );

@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.jcse {
+    justify-content: space-evenly;
+}
+.jcsb {
+    justify-content: space-between;
+}

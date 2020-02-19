@@ -4,7 +4,7 @@ import "./style.css";
 
 function Navbar (){
     return (
-        <h1 className="title">Employee List</h1>
+        <h1 className="head">Employees</h1>
     )
 }
 

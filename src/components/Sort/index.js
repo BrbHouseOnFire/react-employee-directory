@@ -1,20 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
 import './style.css'
 
 
 function Sort(props) {
-   
-    const [ salary, setSalary ] = useState([]);
-    const sortBySalary = () => {
-        const sorted = props.tomemployees.sort((a, b) => {
+    const descending = () => {
+        const sorted = props.emps.sort((a, b) => {
           return b.salary - a.salary;
         });
         props.handleSort(sorted);
       };
-      return (
-        <button onClick={sortBySalary} className="sortButton">Sort Descending Salaries</button>
-        
-      )
+    const ascending = () => {
+        const sorted = props.emps.sort((b, a) => {
+          return b.salary - a.salary;
+        });
+        props.handleSort(sorted);
+      };
+    return (
+      <>
+        <button onClick={descending} 
+          className="sortButton">Sort Descending Salaries
+        </button>
+        <button onClick={ascending} 
+          className="sortButton">Sort Ascending Salaries
+        </button>
+      </>
+      
+    )
 
 };
 
